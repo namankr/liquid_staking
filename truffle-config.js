@@ -9,8 +9,8 @@ module.exports = {
             network_id: '*' // connect to any network
         },
     },
-    constracts_directory: './src/contracts/',
-    constracts_buid_directory: './src/truffle_abis/',
+    contracts_directory: './src/contracts/',
+    contracts_buid_directory: './src/truffle_abis/',
     compilers:{
         solc:{
             version: '^0.5.0',
@@ -20,4 +20,4 @@ module.exports = {
             },
         }
     }
-}
+};
