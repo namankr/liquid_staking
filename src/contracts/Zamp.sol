@@ -1,4 +1,5 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 contract Zamp {
 
@@ -23,7 +24,7 @@ contract Zamp {
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
 
-    constructor() public {
+    constructor() {
         balanceOf[msg.sender] = totalSupply;
     }
 
